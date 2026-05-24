@@ -1,27 +1,40 @@
-# Open_Spaceward_Ho
-Open Implement of the Classic Spaceward Ho! Game - C++
+# Open Spaceward Ho
 
-ORIGINAL GAME:
-(https://www.deltatao.com/ho/pc.html)
-FYI I'm a huge fan of these guys for creating this game. It's abandonware though, so I'm just going to make an open sourced better game.
+An open-source C++ space strategy game inspired by the classic *Spaceward Ho!*.
 
-IF YOU WISH TO HELP IN THE PRODUCTION OF THIS PROJECT, PLEASE MAKE AN ISSUE AND I WILL PROVIDE YOU WITH A CONTACT METHOD. (JUST SAY YOU WANT A CONTACT.)
+Original game (I'm a fan. Check them out.): https://www.deltatao.com/ho/pc.html
 
-NOTE: While Open Spaceward Ho does not promise the exact mechanics of the original game, I've taken care to implement other entertaining features within the game. I intend to build on the original aesthetic.
+## Project Status
 
-The AI in this game will be machine learning trained on a CPU and will be relatively lightweight with difficulty in relation to input variables. 
+Much of the elementary game code exists, but several systems need completion. Many code endpoints open-endedly decide this is a very early phase of development.
 
-If you wish to contact me about helping with completion of this project, I do not mind you posting an issue if you wish to contact me. This project WILL be completed, but its completion a question of extra time resource. The author is currently very busy with important formatting projects, and this one has been set on the backburner. If you have read my code, you'll understand that I'm beyond proficient at creating simplistic code and am generally avoidant of individually complex functions. Formatting my code is something I'm improving on. You will see that in a future version of Open Spaceward Ho. I need to go over the mechanics of this game again before it can be produced in full; not all mechanics are outlined properly.
+## Design Direction
 
-Once all of the mechanics are outlined properly, I will finish making this game.
+Open Spaceward Ho is not intended to be an exact mechanical clone of the original game. It is inspired by the original aesthetic and strategic feel while allowing room for just a few new systems and design changes.
 
-The code is currently in development and serves at present only demonstration purposes. The code is relatively clean at the moment. I intend the code to be more clean by time of completion.
+Planned areas of development include:
 
-There will be updates- currently I'm only making a code dump which will clearly demonstrate the structure of the game, but not its final form. I've got about ~15000 lines of C++ and estimate needing another 2000 lines to complete this project, and cleaning up the existing code. Most of the extra lines will be handling exceptions likely.
+- Core game mechanics
+- Game-state organization
+- AI behavior
+- Code cleanup and formatting
+- Exception handling
+- Cross-platform C++ compatibility where practical
+- Metal and Population are the main 'resource' players may use, though there are additional resource types planned (preferrably a simple system so it doesn't upend the original feel of what Spaceward Ho is like).
 
-This should work on all OS that can run C++.
+## AI
 
-The holdup currently is that most of the elementary game code is written, but it is somewhat disjunct.
+The AI system is intended to be lightweight and CPU-friendly with small, soft instructions. The AI will be inspired likely off of Stockfish[github.com/official-stockfish/Stockfish] while being very lightweight to run on computers that don't have modern architecture. Difficulty may be influenced by input variables rather than heavy computation.
+
+## Contributing
+
+Contributions, suggestions, and mechanical design discussion are welcome.
+
+To help with the project, open an issue and mention that you would like a contact method.
+
+## Current Notes
+
+The repository is currently a code dump and development snapshot. It demonstrates the intended structure of the game, but not the final implementation.
 
 
 File structure plan;
