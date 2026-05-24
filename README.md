@@ -24,7 +24,7 @@ Planned areas of development include:
 
 ## AI
 
-The AI system is intended to be lightweight and CPU-friendly with small, soft instructions. The AI will be inspired likely off of Stockfish[github.com/official-stockfish/Stockfish] while being very lightweight to run on computers that don't have modern architecture. Difficulty may be influenced by input variables rather than heavy computation.
+The AI system is intended to be lightweight and CPU-friendly with small, soft instructions. The AI will be inspired likely off of [Stockfish](github.com/official-stockfish/Stockfish) while being very lightweight to run on computers that don't have modern architecture. Difficulty may be influenced by input variables rather than heavy computation.
 
 ## Contributing
 
