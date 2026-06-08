@@ -1,26 +1,27 @@
-# Open Spaceward Ho
+# Planets or Bust!
 
 An open-source C++ space strategy game inspired by the classic *Spaceward Ho!*.
 
-Original game (I'm a fan. Check them out.): https://www.deltatao.com/ho/pc.html
+Original game's website (Check them out!): https://www.deltatao.com/ho/pc.html
 
+If you've got a better idea of what the name should be for this game, please make an issue.
 ## Project Status
 
 Much of the elementary game code exists, but several systems need completion. Many code endpoints open-endedly decide this is a very early phase of development.
 
 ## Design Direction
 
-Open Spaceward Ho is not intended to be an exact mechanical clone of the original game. It is inspired by the original aesthetic and strategic feel while allowing room for just a few new systems and design changes.
+Planets or Bust! is not intended to be an exact mechanical clone of the original game. It is inspired by *Spaceward Ho!* to have similar aesthetic and strategic feel while allowing room for just a few new systems and design changes.
 
 Planned areas of development include:
 
 - Core game mechanics
 - Game-state organization
 - AI behavior
-- Code cleanup and formatting
-- Exception handling
+- Code cleanup
 - Cross-platform C++ compatibility where practical
-- Metal and Population are the main 'resource' players may use, though there are additional resource types planned (preferrably a simple system so it doesn't upend the original feel of what Spaceward Ho is like).
+- `Metal`, `Population`, and in-game currency `$` are the main 'resource' players may use, though there are additional resource types planned (preferrably a simple system that's uncomplicated, as is the intended genre).
+- Intended to be an optional expansion; the AI learns from your strategy of play, and gets to see it after a game is completed. It should not learn from your surrenders, but rather instead your wins.
 
 ## AI
 
