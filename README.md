@@ -9,6 +9,8 @@ If you've got a better idea of what the name should be for this game, please mak
 
 Much of the elementary game code exists, but several systems need completion. Many code endpoints open-endedly decide this is a very early phase of development.
 
+Major Update: The AI training to produce game actions, as well as the training process itself, appears to "work" in some automated tests in a local repository. We can thank a few open source repositories for this limited-scope breakthrough, including but not limited to Leela Chess Zero (github.com/LeelaChessZero/lc0), OpenSpiel (https://github.com/google-deepmind/open_spiel), and Stockfish (https://github.com/official-stockfish/Stockfish). Stockfish we have to thank for how to utilize AVX2 architectures and its benefit speedups. The interface has been produced, though it is currently at a disappointing phase. I will keep working at it! Thank you for the interest, as it keeps me motivated to keep going.
+
 ## Design Direction
 
 Planets or Bust! is not intended to be an exact mechanical clone of the original game. It is inspired by *Spaceward Ho!* to have similar aesthetic and strategic feel while allowing room for just a few new systems and design changes.
